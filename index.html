@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiken Shop</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- header section starts -->
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i>Chicken Shop</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="cari disini...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="ayam.jpeg" alt="">
+                <div class="content">
+                    <h3>Bibit ayam potong 1box/100 ekor</h3>
+                    <span class="price">Rp.550.000</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="ayam2.jpg" alt="">
+                <div class="content">
+                    <h3>Bibit ayam joper 1box/100 ekor</h3>
+                    <span class="price">Rp.550.000</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="ayam3.jpg" alt="">
+                <div class="content">
+                    <h3>Bibit ayam 1box/100 ekor</h3>
+                    <span class="price">Rp.550.000</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total">tatal: 120.000.000</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create account</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+
+
+
+    <!-- header section ends-->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>jual beli ayam <span>segar dan sehat</span> untuk anda </h3>
+            <p>ayam pedaging,ayam hias,ayam pejantan,ayam petelur dan segala ayam lainnya.
+            </p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+
+
+
+    <!-- home section ends -->
+    <!-- features section strats -->
+
+    <section class="features" id="features">
+
+        <h1 class="heading"> our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="download (1).jpg" alt="">
+                <h3>fresh and healty</h3>
+                <p>ayam disini di jamin sehat dan segar</p>
+                <a href="#" class="btn"> read more </a>
+            </div>
+
+            <div class="box">
+                <img src="download.jpg" alt="">
+                <h3>Pengiriman</h3>
+                <p>Pengiriman yang cepat dan tanggap</p>
+                <a href="#" class="btn"> read more </a>
+            </div>
+
+            <div class="box">
+                <img src="depositphotos_82193170-stock-illustration-rooster-chef.jpg" alt="">
+                <h3>Siap saji</h3>
+                <p>menerima pesanan seperti catering hub 087888105717</p>
+                <a href="#" class="btn"> read more </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- features section ends -->
+
+
+    <!-- products section stars -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading">our <span>products</span> </h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="pakan.jpg" alt="">
+                    <h3>Kosentrat Ayam Petelur 50kg</h3>
+                    <div class="price">Rp.600.000-650.000
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="pakan 2.jpg" alt="">
+                    <h3>Kosentrat Ayam Pedaging 50kg</h3>
+                    <div class="price">700.000-750.000 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="bebek.jpg" alt="">
+                    <h3>Kosentrat bebek Petelur 50kg</h3>
+                    <div class="price">700.000-750.000 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="bebek daging.jpg" alt="">
+                    <h3>Kosentrat bebek Pedaging 1kg</h3>
+                    <div class="price">700.000-750.000 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+            </div>
+
+            <div class="swiper product-slider">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="obat.jpg" alt="">
+                        <h3>obat ayam flu dll.</h3>
+                        <div class="price">Rp.40.000-50.000
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="obat mata.webp" alt="">
+                        <h3>Obat bebek mata biru</h3>
+                        <div class="price">90.000-100.000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="pakan 2.jpg" alt="">
+                        <h3>Kosentrat Ayam Pedaging 1kg</h3>
+                        <div class="price">700.000-750.000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i> foto <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="pakan 2.jpg" alt="">
+                        <h3>Kosentrat Ayam Pedaging 1kg</h3>
+                        <div class="price">700.000-750.000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+
+
+                </div>
+
+    </section>
+
+    <!-- products section ends-->
+
+    <!--categories section starts-->
+
+    <section class="categories" id="categories">
+
+        <h1 class="heading"> product <span>categories</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="jago.jpg" alt="">
+                <h3>Ayam Jago</h3>
+                <p>Rp.125.000-Rp.150.000</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="kate.jpeg" alt="">
+                <h3>Ayam Kate</h3>
+                <p>Rp.500.000-Rp.575.000</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="Ayam-Brahma.webp" alt="">
+                <h3>Ayam Brahma</h3>
+                <p>Rp.700.000-Rp.800.000</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="jual-ayam-batik12.jpg" alt="">
+                <h3>Ayam Batik</h3>
+                <p>Rp.450.000-Rp.750.000</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!--categories section ends-->
+
+    <!--review- section stars-->
+
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="bambang.jpg" alt="">
+                    <p>Beli ayam disini sangat bagus kualitasnya.</p>
+                    <h3>Bambang</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="fauzi.jpg" alt="">
+                    <p>penanganan yang sangat cepat.</p>
+                    <h3>Fauzi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="tg.jpg" alt="">
+                    <p>respon yang sopan.</p>
+                    <h3>Tegar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="yudha.jpg" alt="">
+                    <p>ayam hiasnya sangat menjanjikan</p>
+                    <h3>Yudha</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
+
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.037198413253!2d110.64129369999999!3d-6.886147899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70ebf9bfd53b97%3A0x954315914b1eaa8!2sChicken%20Shop%20pemasok%20ayam%20potong%20H.SULEMAN!5e0!3m2!1sid!2sid!4v1671449355329!5m2!1sid!2sid"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form action="">
+                <h3>Kontak Saya</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <table>
+                        <tr class="td">
+                            <td>Rahmat Suci Setyanto</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <tr class="td1">
+                        <td>sulissuci2@gmail.com</td>
+                    </tr>
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <tr class="td2">
+                        <td>087888105717</td>
+                    </tr>
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="https://wa.me/+6287888105717" class="fab fa-whatsapp" target="_blank"></a>
+            <a href="https://www.instagram.com/rhmtsc_/" class="fab fa-instagram" target="_blank"></a>
+            <a href="https://www.tiktok.com/@rahmatsuci_" class="fab fa-tiktok" target="_blank"></a>
+        </div>
+
+        <a href="#" class="to-top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+
+        <div class="credit">created by <span>Rahmat Suci Setyanto</span> </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
